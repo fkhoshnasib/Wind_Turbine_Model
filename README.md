@@ -1,6 +1,6 @@
 # Wind_Turbine_Model
 The overall objective here is to explore the feasibility 
-of meeting the energy needs of our campus (Earlham College) using 
+of meeting the energy needs of our campus using 
 wind turbines. For simplicity, we will model the operation 
 of one turbine.  <P><BR>
     
