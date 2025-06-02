@@ -78,7 +78,6 @@ purpose of this study we only consider electric consumption.
   </TR>
 
 </TABLE>
-<H4><FONT COLOR="#A30836">Wind energy modeling: Some background</FONT></H4>
 
 <H4><FONT COLOR="#A30836">Wind energy modeling: Some background</FONT></H4>
 
