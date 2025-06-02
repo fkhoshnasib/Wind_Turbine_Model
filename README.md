@@ -87,12 +87,10 @@ In a nutshell, here is how a wind turbine works: <BR><BR>
 It is theoretically possible, from a 
 simplified 1-D form of energy conservation laws, 
 to estimate <BR><BR>
-P_e(u)=
-\begin{cases}
-a + b u^\alpha, & \text{if } u_c \le u \le u_r \\
-P_{er}, & \text{if } u_r < u \le u_f \\
-0, & \text{if } u > u_f
-\end{cases}
+$~~~~~~~~~~~~\displaystyle P_w = \frac{1}{2}\rho A u^3 ~~~~~~~~~~~~
+\displaystyle P_e = C_p C_t C_g P_w$ <BR><BR>
+where $\rho=$ air density, $A=$ swept area, $u=$ wind speed. <BR>
+
 <TABLE ALIGN="LEFT" WIDTH="80%" BORDER="0"  CELLSPACING="0"  CELLPADDING="0">
   <TR VALIGN="TOP">
     <TD WIDTH="50%">
@@ -147,25 +145,11 @@ where $P_e(u)$ and $f(u)$ are both given by expressions above.<BR><BR>
     </TD>
   </TR>
 </TABLE>
-<H4><FONT COLOR="#A30836">Simulation studies</FONT></H4>
 
-We want to compute the integral: 
-$\displaystyle P_{tot}=\int_0^\infty P_e(u) f(u) du$  <BR><BR>
-with $~~~~~P_e(u)=\left\{\begin{array}{ll} a + b u^\alpha, & \mbox{ if } u_c \le u \le u_r  \\
-            P_{er}, & \mbox{ if } u_r < u \le u_f \\ 
-             0, & \mbox{ if } u>u_f \end{array}\right.$
-&nbsp; &nbsp; &nbsp; and 
-$~~~~~~\displaystyle f(u)=\frac{\frac{k}{c}(\frac{u}{c})^{k-1}}{e^{(\frac{u}{c})^k}}$
-<BR><BR>
-The wind turbine we are investigating for installation 
-is manufactured by General Electric, with model number 
-GE 1.7-103.  Based on the model and installation, we have 
-the following estimates for the parameters <BR>
-$~~~u_c ~ \sim ~ 3\mbox{ to }4 ~m/s$; $~~u_r ~ \sim ~ 12\mbox{ to }14 ~m/s$ 
-$~~u_f = 20 ~m/s$; <BR>
-$~~P_{er} ~ \sim ~ 3000\mbox{ to }4000 ~kW$ per hour, depending on value or $u_r$; <BR>
-$~~\alpha ~ \sim ~ 2\mbox{ to }2.3$; $~~k = 2.323$; $~~c=6.52 ~m/s$.  <BR>
-$~~a$ and $b$ can be found if we know $u_c$, $u_r$, by curve-fitting. <BR><BR>
+
+
+
+
 
 The Sage code below computes the integral, which gives the average 
 power generated per hour.  Multiplying this by $24\times 365$ gives 
