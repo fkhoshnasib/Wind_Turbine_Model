@@ -1,5 +1,13 @@
 # Wind_Turbine_Model
 <H4><FONT COLOR="#A30836">Introduction</FONT></H4>
+
+<TABLE ALIGN="LEFT" WIDTH="80%" BORDER="0"  CELLSPACING="0"  CELLPADDING="8">
+  <TR VALIGN="TOP">
+    <TD ALIGN="CENTER"><BR>
+      <IMG SRC="./wind_turbine_pic.png" width="270">
+    </TD>
+    <TD>
+        <H4><FONT COLOR="#A30836">Introduction</FONT></H4>
 The overall objective here is to explore the feasibility 
 of meeting the energy needs of our campus using 
 wind turbines. For simplicity, we will model the operation 
