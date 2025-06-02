@@ -65,6 +65,6 @@ usage for the years 2008-2013.
 Note that the campus also consumes energy in other forms,
 such as natural gas, particularly for heating. But for the 
 purpose of this study we only consider electric consumption.
-    </TD>
+    
   </TR>
 </TABLE>
