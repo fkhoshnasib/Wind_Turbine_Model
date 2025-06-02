@@ -87,10 +87,12 @@ In a nutshell, here is how a wind turbine works: <BR><BR>
 It is theoretically possible, from a 
 simplified 1-D form of energy conservation laws, 
 to estimate <BR><BR>
-$~~~~~~~~~~~~\displaystyle P_w = \frac{1}{2}\rho A u^3 ~~~~~~~~~~~~
-\displaystyle P_e = C_p C_t C_g P_w$ <BR><BR>
-where $\rho=$ air density, $A=$ swept area, $u=$ wind speed. <BR>
-
+P_e(u)=
+\begin{cases}
+a + b u^\alpha, & \text{if } u_c \le u \le u_r \\
+P_{er}, & \text{if } u_r < u \le u_f \\
+0, & \text{if } u > u_f
+\end{cases}
 <TABLE ALIGN="LEFT" WIDTH="80%" BORDER="0"  CELLSPACING="0"  CELLPADDING="0">
   <TR VALIGN="TOP">
     <TD WIDTH="50%">
