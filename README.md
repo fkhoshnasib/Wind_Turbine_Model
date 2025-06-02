@@ -1,5 +1,5 @@
 # Wind_Turbine_Model
-##Introduction
+<H4><FONT COLOR="#A30836">Introduction</FONT></H4>
 The overall objective here is to explore the feasibility 
 of meeting the energy needs of our campus using 
 wind turbines. For simplicity, we will model the operation 
