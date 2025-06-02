@@ -101,9 +101,13 @@ to use a "power curve," such as the one shown in the sketch.
 <BR><BR>
 From the curve, the electric power is a function of 
 $u$, and has the form <BR><BR>
-$~~~~~~~~ \displaystyle P_e(u)=\left\{\begin{array}{ll} a + b u^\alpha, & \mbox{ if } u_c \le u \le u_r  \\
-            P_{er}, & \mbox{ if } u_r < u \le u_f \\ 
-             0, & \mbox{ if } u>u_f \end{array}\right.$
+$$
+P_e(u) = \begin{cases} 
+a + b u^\alpha, & \text{if } u_c \leq u \leq u_r \\\\
+P_{er}, & \text{if } u_r < u \leq u_f \\\\
+0, & \text{if } u > u_f
+\end{cases}
+$$
     </TD>
     <TD ALIGN="CENTER">
       Wind turbine power curve <BR>
