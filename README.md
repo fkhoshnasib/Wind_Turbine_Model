@@ -1,4 +1,5 @@
 # Wind_Turbine_Model
+##Introduction
 The overall objective here is to explore the feasibility 
 of meeting the energy needs of our campus using 
 wind turbines. For simplicity, we will model the operation 
@@ -67,4 +68,5 @@ such as natural gas, particularly for heating. But for the
 purpose of this study we only consider electric consumption.
     </TD>
   </TR>
+  ##Background
 </TABLE>
