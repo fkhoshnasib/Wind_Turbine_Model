@@ -80,6 +80,8 @@ purpose of this study we only consider electric consumption.
 </TABLE>
 <H4><FONT COLOR="#A30836">Wind energy modeling: Some background</FONT></H4>
 
+<H4><FONT COLOR="#A30836">Wind energy modeling: Some background</FONT></H4>
+
 In a nutshell, here is how a wind turbine works: <BR><BR>
 <UL>
   <LI>It converts the wind’s kinetic energy into rotational KE in the turbine.
@@ -95,20 +97,6 @@ In a nutshell, here is how a wind turbine works: <BR><BR>
 It is theoretically possible, from a 
 simplified 1-D form of energy conservation laws, 
 to estimate <BR><BR>
-$~~~~~~~~~~~~\displaystyle P_w = \frac{1}{2}\rho A u^3 ~~~~~~~~~~~~
-\displaystyle P_e = C_p C_t C_g P_w$ <BR><BR>
-where $\rho=$ air density, $A=$ swept area, $u=$ wind speed. <BR>
-
-<TABLE ALIGN="LEFT" WIDTH="80%" BORDER="0"  CELLSPACING="0"  CELLPADDING="0">
-  <TR VALIGN="TOP">
-    <TD WIDTH="50%">
-However, in practice, it is very difficult to estimate reliable 
-values for all the needed parameters. Therefore, a more common 
-way to model the electric power output of a wind turbine is 
-to use a "power curve," such as the one shown in the sketch. 
-<BR><BR>
-From the curve, the electric power is a function of 
-$u$, and has the form  <BR><BR>
 $~~~~~~~~~~~~\displaystyle P_w = \frac{1}{2}\rho A u^3 ~~~~~~~~~~~~
 \displaystyle P_e = C_p C_t C_g P_w$ <BR><BR>
 where $\rho=$ air density, $A=$ swept area, $u=$ wind speed. <BR>
@@ -167,3 +155,5 @@ where $P_e(u)$ and $f(u)$ are both given by expressions above.<BR><BR>
     </TD>
   </TR>
 </TABLE>
+
+
