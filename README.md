@@ -87,8 +87,8 @@ In a nutshell, here is how a wind turbine works: <BR><BR>
 It is theoretically possible, from a 
 simplified 1-D form of energy conservation laws, 
 to estimate <BR><BR>
-$ P_w = \frac{1}{2}\rho A u^3 \\
- P_e = C_p C_t C_g P_w$ <BR><BR>
+$~~~~~~~~~~~~\displaystyle P_w = \frac{1}{2}\rho A u^3 ~~~~~~~~~~~~
+\displaystyle P_e = C_p C_t C_g P_w$ <BR><BR>
 where $\rho=$ air density, $A=$ swept area, $u=$ wind speed. <BR>
 
 <TABLE ALIGN="LEFT" WIDTH="80%" BORDER="0"  CELLSPACING="0"  CELLPADDING="0">
@@ -101,7 +101,7 @@ to use a "power curve," such as the one shown in the sketch.
 <BR><BR>
 From the curve, the electric power is a function of 
 $u$, and has the form <BR><BR>
-$~~~~~~~~P_e(u)=\left\{\begin{array}{ll} a + b u^\alpha, & \mbox{ if } u_c \le u \le u_r  \\
+$~~~~~~~~ \displaystyle P_e(u)=\left\{\begin{array}{ll} a + b u^\alpha, & \mbox{ if } u_c \le u \le u_r  \\
             P_{er}, & \mbox{ if } u_r < u \le u_f \\ 
              0, & \mbox{ if } u>u_f \end{array}\right.$
     </TD>
@@ -145,15 +145,6 @@ where $P_e(u)$ and $f(u)$ are both given by expressions above.<BR><BR>
     </TD>
   </TR>
 </TABLE>
-
-
-
-
-
-
-The Sage code below computes the integral, which gives the average 
-power generated per hour.  Multiplying this by $24\times 365$ gives 
-the average power generated per year in $kWh$.
 
 
 
