@@ -100,9 +100,7 @@ $~~~~~~~~~~~~\displaystyle P_w = \frac{1}{2}\rho A u^3 ~~~~~~~~~~~~
 \displaystyle P_e = C_p C_t C_g P_w$ <BR><BR>
 where $\rho=$ air density, $A=$ swept area, $u=$ wind speed. <BR>
 
-<TABLE ALIGN="LEFT" WIDTH="80%" BORDER="0"  CELLSPACING="0"  CELLPADDING="0">
-  <TR VALIGN="TOP">
-    <TD WIDTH="50%">
+
 However, in practice, it is very difficult to estimate reliable 
 values for all the needed parameters. Therefore, a more common 
 way to model the electric power output of a wind turbine is 
@@ -110,22 +108,29 @@ to use a "power curve," such as the one shown in the sketch.
 <BR><BR>
 From the curve, the electric power is a function of 
 $u$, and has the form <BR><BR>
-$~~~~~~~~P_e(u)=\left\{\begin{array}{ll} a + b u^\alpha, & \mbox{ if } u_c \le u \le u_r  \\
-            P_{er}, & \mbox{ if } u_r < u \le u_f \\ 
-             0, & \mbox{ if } u>u_f \end{array}\right.$
+$$
+P_e(u) =
+\left\{
+\begin{array}{ll}
+a + b u^\alpha & \text{if } u_c \le u \le u_r \\
+P_{er} & \text{if } u_r < u \le u_f \\
+0 & \text{if } u > u_f
+\end{array}
+\right.
+$$
+    <BR><BR>
     </TD>
     <TD ALIGN="CENTER">
-      Wind turbine power curve <BR>
+      Wind turbine power curve is given as follows: <BR>
       <IMG SRC="./wind_turbine_power_curve.png" width="300">
     </TD>
-  </TR>
-</TABLE>
+
 where <BR>
-$~~~~u_c=$ cut-in wind speed, where electric power output rises above 0 <BR>
-$~~~~u_r=$ rated wind speed <BR>
-$~~~~u_f=$ furling wind speed, at which turbine is shut off to prevent damage <BR>
-$~~~~\alpha$ is a fitting parameter whose value is typically close to 2 <BR>  
-$~~~~P_{er}$ is the rated power output under optimal wind conditions.  <BR>
+$u_c=$ cut-in wind speed, where electric power output rises above 0 <BR>
+$u_r=$ rated wind speed <BR>
+$u_f=$ furling wind speed, at which turbine is shut off to prevent damage <BR>
+$\alpha$ is a fitting parameter whose value is typically close to 2 <BR>  
+$P_{er}$ is the rated power output under optimal wind conditions.  <BR>
     Numerical<SUP>&nbsp;</SUP>values of all these parameters depend on design, 
 manufacture and installation properties of the wind turbine.
 
