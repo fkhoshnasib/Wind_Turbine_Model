@@ -108,22 +108,14 @@ to use a "power curve," such as the one shown in the sketch.
 <BR><BR>
 From the curve, the electric power is a function of 
 $u$, and has the form <BR><BR>
-$$
-P_e(u) =
-\left\{
-\begin{array}{ll}
-a + b u^\alpha & \text{if } u_c \le u \le u_r \\
-P_{er} & \text{if } u_r < u \le u_f \\
-0 & \text{if } u > u_f
-\end{array}
-\right.
-$$
+<img width="252" height="76" alt="image" src="https://github.com/user-attachments/assets/a7defc76-a02f-4d76-a4ed-1068d62952b7" />
     <BR><BR>
     </TD>
     <TD ALIGN="CENTER">
       Wind turbine power curve is given as follows: <BR>
       <IMG SRC="./wind_turbine_power_curve.png" width="300">
     </TD>
+
 
 where <BR>
 $u_c=$ cut-in wind speed, where electric power output rises above 0 <BR>
